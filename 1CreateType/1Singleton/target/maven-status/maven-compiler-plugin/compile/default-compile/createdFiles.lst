@@ -1,0 +1,12 @@
+singleton\other\SubFrame$MyIFListener.class
+singleton\other\MainClass.class
+HibernateSessionFactory.class
+singleton\sample00\Client.class
+singleton\sample00\Singleton.class
+singleton\sample01\IdentityCardNo.class
+singleton\sample02\Client.class
+singleton\sample02\PrintSpoolerSingleton.class
+singleton\other\SubFrame.class
+singleton\sample01\Client.class
+singleton\sample02\PrintSpoolerException.class
+singleton\other\MainClass$BtListener.class
