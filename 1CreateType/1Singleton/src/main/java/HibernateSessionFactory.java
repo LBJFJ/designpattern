@@ -4,7 +4,6 @@
  * pattern, see {@link http://hibernate.org/42.html }.
  */
 public class HibernateSessionFactory {
-//
 //    /**
 //     * Location of hibernate.cfg.xml file.
 //     * Location should be on the classpath as Hibernate uses
