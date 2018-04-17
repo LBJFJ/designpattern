@@ -5,7 +5,6 @@ public abstract class State {
     public abstract void handle();
 }
 
-
 class ConcreteStateA extends State {
     @Override
     public void handle() {
