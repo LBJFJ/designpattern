@@ -12,6 +12,6 @@
         <relativePath>../</relativePath>
     </parent>
 
-    <artifactId>Decorator</artifactId>
+    <artifactId>3Decorator</artifactId>
 
 </project>

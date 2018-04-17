@@ -12,6 +12,6 @@
         <relativePath>../</relativePath>
     </parent>
 
-    <artifactId>Builder</artifactId>
+    <artifactId>4Builder</artifactId>
 
 </project>
