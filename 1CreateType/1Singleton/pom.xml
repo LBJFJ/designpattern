@@ -12,6 +12,6 @@
         <relativePath>../</relativePath>
     </parent>
 
-    <artifactId>Singleton</artifactId>
+    <artifactId>1Singleton</artifactId>
 
 </project>
