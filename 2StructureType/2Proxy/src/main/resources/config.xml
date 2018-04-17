@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config>
+    <className>proxy.sample01.PermissionProxy</className>
+</config>
