@@ -7,7 +7,7 @@
 
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>design-pattern</artifactId>
+        <artifactId>2StructureType</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
