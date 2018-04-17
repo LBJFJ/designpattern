@@ -10,7 +10,9 @@ import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 
 public class MainClass extends JFrame {
-    private JButton button;
+	private static final long serialVersionUID = 1L;
+	
+	private JButton button;
     private JDesktopPane desktopPane;
     private SubFrame iFrame = null;
 
