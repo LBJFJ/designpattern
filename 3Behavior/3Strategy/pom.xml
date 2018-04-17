@@ -7,11 +7,11 @@
 
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>design-pattern</artifactId>
+        <artifactId>3Behavior</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
 
-    <artifactId>Strategy</artifactId>
+    <artifactId>3Strategy</artifactId>
 
 </project>
