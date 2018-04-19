@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config>
-    <className>strategy.StudentDiscount</className>
+    <className>strategy.movieticket.strategy.StudentDiscount</className>
 </config>

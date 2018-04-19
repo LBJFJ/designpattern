@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config>
-    <className>strategy.sample01.QuickSort</className>
+    <className>strategy.sample01.strategy.QuickSort</className>
 </config>

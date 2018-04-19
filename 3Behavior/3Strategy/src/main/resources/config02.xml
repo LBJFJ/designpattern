@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config>
-    <className>strategy.sample02.SelectionSort</className>
+    <className>strategy.sample02.strategy.BicycleTravelStrategy</className>
 </config>
