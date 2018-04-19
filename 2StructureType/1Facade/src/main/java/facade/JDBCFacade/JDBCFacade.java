@@ -7,7 +7,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JDBCFacade {
-
     private Connection conn = null;
     private Statement statement = null;
 

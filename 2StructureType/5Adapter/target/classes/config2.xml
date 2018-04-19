@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config>
-    <className>adapter.sample02.NewCipherAdapter</className>
+    <className>adapter.sample02.adapter.NewCipherAdapter</className>
 </config>

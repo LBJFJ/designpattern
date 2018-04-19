@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <config>
-    <className>cridge.sample01.White</className>
-    <className>cridge.sample01.SmallPen</className>
+    <className>bridge.sample01.color.White</className>
+    <className>bridge.sample01.pen.SmallPen</className>
 </config>
