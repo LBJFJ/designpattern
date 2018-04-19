@@ -6,15 +6,12 @@ import javax.crypto.SecretKey;
 
 public class DESEncrypt {
     public static void main(String args[]) {
-        String codeStringBegin = "Sunny Liu"; // 要加密的明文
-        String codeStringEnd = null; // 加密后的密文
-        String decodeString = null; // 密文解密后得到的明文
-        String cipherType = "DESede"; // 加密算法类型，可设置为DES、DESede、AES等字符串
-        int keyLength = 112; // 设置密钥长度
         try {
+            String cipherType = "DESede"; // 加密算法类型，可设置为DES、DESede、AES等字符串
             // 获取密钥生成器
             KeyGenerator keyGen = KeyGenerator.getInstance(cipherType);
             
+            int keyLength = 112; // 设置密钥长度
             // 初始化密钥生成器，不同的加密算法其密钥长度可能不同
             keyGen.init(keyLength);
             
@@ -36,6 +33,8 @@ public class DESEncrypt {
             
             // 初始化密码器
             cp.init(Cipher.ENCRYPT_MODE, key);
+            
+            String codeStringBegin = "Sunny Liu"; // 要加密的明文
             System.out.println("要加密的字符串是：" + codeStringBegin);
             
             byte[] codeStringByte = codeStringBegin.getBytes("UTF8");
@@ -52,7 +51,7 @@ public class DESEncrypt {
                 System.out.print(codeStringByteEnd[i] + ",");
             }
             System.out.println("");
-            codeStringEnd = new String(codeStringByteEnd);
+            String codeStringEnd = new String(codeStringByteEnd);// 加密后的密文
             System.out.println("加密后的字符串是：" + codeStringEnd);
             System.out.println("");
             
@@ -66,7 +65,7 @@ public class DESEncrypt {
                 System.out.print(decodeStringByteEnd[i] + ",");
             }
             System.out.println("");
-            decodeString = new String(decodeStringByteEnd);
+            String decodeString = new String(decodeStringByteEnd);// 密文解密后得到的明文
             System.out.println("解密后的字符串是：" + decodeString);
             System.out.println("");
         } catch (Exception e) {

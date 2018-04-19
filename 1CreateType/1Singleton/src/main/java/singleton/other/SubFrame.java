@@ -5,6 +5,8 @@ import javax.swing.event.InternalFrameAdapter;
 import javax.swing.event.InternalFrameEvent;
 
 public class SubFrame extends JInternalFrame {
+    private static final long serialVersionUID = 1L;
+
     private static SubFrame frame;// 静态实例
 
     /*
@@ -18,8 +20,7 @@ public class SubFrame extends JInternalFrame {
         this.setVisible(true);
     }
 
-    public static SubFrame getFrame()// 返回窗体实例
-    {
+    public static SubFrame getFrame() {// 返回窗体实例
         if (frame == null)// 如果窗体对象为空
         {
             frame = new SubFrame();// 创建该窗体，否则直接返回窗体
@@ -27,8 +28,7 @@ public class SubFrame extends JInternalFrame {
         return frame;// 返回窗体
     }
 
-    class MyIFListener extends InternalFrameAdapter// 事件监听器
-    {
+    class MyIFListener extends InternalFrameAdapter {// 事件监听器
         // 子窗体关闭时，将窗体对象设为null
         @Override
         public void internalFrameClosing(InternalFrameEvent e) {

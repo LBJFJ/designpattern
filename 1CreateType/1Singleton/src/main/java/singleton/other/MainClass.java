@@ -16,17 +16,21 @@ public class MainClass extends JFrame {
     private JDesktopPane desktopPane;
     private SubFrame iFrame = null;
 
+    public static void main(String[] args) {
+        new MainClass();
+    }
+    
     public MainClass() {
         super("主窗体");
-        Container c = this.getContentPane();
-        c.setLayout(new BorderLayout());
+        Container container = this.getContentPane();
+        container.setLayout(new BorderLayout());
 
         button = new JButton("点击创建一个内部窗体");
         button.addActionListener(new BtListener());
-        c.add(button, BorderLayout.SOUTH);
+        container.add(button, BorderLayout.SOUTH);
 
         desktopPane = new JDesktopPane(); // 创建desktopPane
-        c.add(desktopPane);
+        container.add(desktopPane);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
@@ -39,12 +43,9 @@ public class MainClass extends JFrame {
             if (iFrame != null) {
                 desktopPane.remove(iFrame);
             }
+            
             iFrame = SubFrame.getFrame();
             desktopPane.add(iFrame);
         }
-    }
-
-    public static void main(String[] args) {
-        new MainClass();
     }
 }

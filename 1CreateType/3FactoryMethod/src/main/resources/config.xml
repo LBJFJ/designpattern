@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config>
-    <className>factorymethod.sample01.HaierTVFactory</className>
+    <className>factorymethod.sample01.factory.HaierTVFactory</className>
 </config>
